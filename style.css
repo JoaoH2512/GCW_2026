@@ -1,83 +1,90 @@
 body{
-margin:0;
-font-family: Arial;
-background:#eee;
+    margin:0;
+    font-family: Arial;
+    background:#eee;
 }
 
 header{
-background:#f39c12;
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:10px 40px;
+    background:#f39c12;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 40px;
 }
 
 nav a{
-margin:0 10px;
-text-decoration:none;
-color:black;
-font-weight:bold;
+    margin:0 10px;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
 }
 
 .logo{
-font-size:25px;
+    font-size:25px;
+}
+
+/* 👇 ADICIONEI APENAS ISSO */
+.logo img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    object-fit:cover;
 }
 
 .hero{
-height:500px;
-background-image:url("pédegalinha.jpg");
-background-size:cover;
-background-position:center;
-position:relative;
-padding:40px;
+    min-height:100vh;
+    background:url("img/fundo.jpg") no-repeat center center;
+    background-size:cover;
+    position:relative;
+    padding:40px;
 }
 
 .box{
-background:rgba(255,200,100,0.8);
-width:300px;
-padding:20px;
+    background:rgba(255,200,100,0.8);
+    width:300px;
+    padding:20px;
 }
 
 .titulo{
-text-align:center;
-margin-bottom:30px;
+    text-align:center;
+    margin-bottom:30px;
 }
 
 .menu{
-display:flex;
-gap:20px;
-justify-content:center;
-flex-wrap:wrap;
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
 }
 
 .item{
-background:rgba(255,200,100,0.85);
-padding:15px;
-width:220px;
+    background:rgba(255,200,100,0.85);
+    padding:15px;
+    width:220px;
 }
 
 .item span{
-display:block;
-margin-top:10px;
-font-weight:bold;
+    display:block;
+    margin-top:10px;
+    font-weight:bold;
 }
 
 .voltar{
-background:#f39c12;
-padding:8px 15px;
-text-decoration:none;
-color:black;
-font-weight:bold;
-position:absolute;
-left:20px;
-top:20px;
+    background:#f39c12;
+    padding:8px 15px;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    position:absolute;
+    left:20px;
+    top:20px;
 }
 
 .box-contato{
-background:rgba(255,200,100,0.85);
-padding:30px;
-width:400px;
-margin:auto;
-text-align:left;
-font-size:18px;
+    background:rgba(255,200,100,0.85);
+    padding:30px;
+    width:400px;
+    margin:auto;
+    text-align:left;
+    font-size:18px;
 }
